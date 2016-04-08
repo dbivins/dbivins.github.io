@@ -1,0 +1,129 @@
+/* Dark Blue:#0288D1, Baby Blue:#03A9F4, Grey-Blue:#448AFF; Indigo Blue: #303F9F  Header color opacity: rgba(100, 115, 227, 0.4)*/
+/*Fonts*/
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+/*Font Styles*/
+body{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+ .header h1{ font-family: 'Lobster', cursive !important;
+  
+}
+.navbar-brand{
+  font-size:30px !important;
+
+}
+.navbar a{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size:20px;
+}
+.about p, .footer {
+  font-size:20px;
+}
+
+/*Navigation*/
+.navbar{
+  background-color: #0288D1;  
+ border-bottom: solid white;
+}
+.navbar a{
+  color:white !important;
+  
+}
+.navbar ul a:hover{
+  background-color:#303F9F !important;
+  color: #03A9F4 !important; 
+  
+}
+ .navbar .navbar-brand{
+   font-size:1.5em;
+}
+
+/*Header*/
+.header{
+  padding:210px 0px 50px 0px;
+  background: url("http://i1332.photobucket.com/albums/w611/dbivins227/ordinateur-portable-apple_zpskwcofrr6.jpg")  no-repeat center center;
+  background-size:cover;
+  width:100%;
+}
+.header h1{
+  font-size:3em;
+  color: black;
+}
+.header ul{
+ padding-top:10px;
+  
+}
+.jumbotron{
+ background:rgba(100, 115, 227, 0.4);
+}
+.header p{
+  color:white;
+  font-weight:bold;
+  background:#0288D1;
+  opacacity:0.5;
+}
+.arrow{
+  color:#B6B6B6 !important;
+}
+button{
+  border-radius:6px;
+  heig
+}
+
+/*ABOUT*/
+.about{
+  background:#03A9F4;
+  padding-top:7em;
+  padding-bottom:6em;
+  clear:both
+
+}
+.about h1{
+  color:white;
+}
+
+
+/*SKILLS*/
+.skills{
+  background:#303F9F;
+  color:white;
+  padding-top:5em;
+  padding-bottom:6em;
+}
+.skills ul{
+  padding-top:20px;
+}
+.skills ul li{
+  
+  list-style: none;
+}
+.skills ul{
+  
+}
+/*PORTFOLIO*/
+.portfolio{
+  background:#448AFF;
+  padding-top:7em;
+}
+.portfolio {
+  padding-top:2em;
+  padding-bottom:3em;
+}
+/*EXPERIENCE*/
+.experience{
+  background:#303F9F;
+  color:white; 
+}
+/*CONACT*/
+.contact{
+padding-top:7em;
+  padding-bottom:6em;
+  background:#B6B6B6;
+  color:#0288D1;
+}
+/*FOOTER*/
+.footer{
+  padding-top:40px;
+  background:#B6B6B6;
+}

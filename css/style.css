@@ -23,8 +23,8 @@ body{
 
 /*Navigation*/
 .navbar{
-  background-color: #0288D1;  
- border-bottom: solid white;
+    background-color: #303F9F !important;  
+	border-bottom: solid #03A9F4;
 }
 .navbar a{
   color:white !important;

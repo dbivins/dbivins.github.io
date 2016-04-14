@@ -68,7 +68,6 @@ body{
 }
 button{
   border-radius:6px;
-  heig
 }
 
 /*ABOUT*/
@@ -76,13 +75,17 @@ button{
   background:#03A9F4;
   padding-top:7em;
   padding-bottom:6em;
-  clear:both
+  color:white;
 
 }
 .about h1{
   color:white;
 }
 
+.about img{
+  border: solid 3px white;
+ 
+}
 
 /*SKILLS*/
 .skills{
